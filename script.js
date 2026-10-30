@@ -4,9 +4,9 @@
 
 // ---------- SETTINGS: edit these ----------
 var SETTINGS = {
-  whatsappNumber: "918105119181",        // country code + number, digits only
-  phoneDisplay: "+91 81051 19181",       // how the number is shown on the page
-  phoneTel: "+918105119181",             // used by the "Call the shop" button
+  whatsappNumber: "919493590999",        // country code + number, digits only
+  phoneDisplay: "+919493590999",       // how the number is shown on the page
+  phoneTel: "+919493590999",             // used by the "Call the shop" button
   shopName: "Winny Jute Emporium"
 };
 // -------------------------------------------

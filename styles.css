@@ -15,8 +15,8 @@
   --cta-ink: #13261B;
   --accent: #C41068;
   --focus: #C41068;
-  --display: "Bricolage Grotesque", system-ui, sans-serif;
-  --body: "DM Sans", system-ui, sans-serif;
+  --display: "Manrope", system-ui, sans-serif;
+  --body: "Manrope", system-ui, sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -77,7 +77,13 @@ img, svg { max-width: 100%; }
 .hero-grid { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 32px 48px; padding-top: 56px; }
 .hero-copy { flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 22px; padding-bottom: 52px; align-self: center; }
 .kicker { display: inline-flex; align-items: center; gap: 10px; font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }
-.hero h1 { font-weight: 800; font-size: clamp(40px, 6.4vw, 76px); line-height: 1.02; letter-spacing: -0.015em; }
+.hero h1  {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: clamp(40px, 6.4vw, 76px);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+} 
 .lede { max-width: 46ch; font-size: 18px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .swatches { display: flex; align-items: center; gap: 10px; margin-top: 4px; }
